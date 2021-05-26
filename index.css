@@ -1,0 +1,86 @@
+body {
+    margin: auto;
+    display: flex; 
+    flex-flow: row wrap;
+}
+
+.flex-container{
+    display: flex; 
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    flex-grow: 1;
+}
+
+.card {
+    display: flex;
+    max-width: 25%;
+    margin: 1%;
+    max-height: 0.7rem;
+}
+
+.container form{
+    margin: 1%;
+    
+}
+
+.ingredients-list-container table{
+    background-color:rgba(0, 0, 0, 0.1) ;
+}
+
+.container form label {
+    margin: 1%;
+    margin-right: 0%
+}
+.container form input[type = "text"] {
+    width: 60%
+}
+
+.ingredients-list table{
+    margin: 1%;
+    width: 100%;
+    
+}
+.ingredients-list td {
+    display: flex;
+    padding: 1%
+}
+
+.recipes-container{
+    margin: 1%
+}
+
+#overlay {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0; 
+    background-color: salmon;
+    z-index: 2;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+#jumbotron {
+    width: 100%;
+    background-color: rgba(46, 139, 87, 0.5);
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+
+h1 {
+ 
+}
+
+h1 + p {
+    width: auto;
+    font-size: 1.1rem;
+}
